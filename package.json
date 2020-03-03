@@ -1,12 +1,25 @@
 {
-  "name": "Bootstrap",
+  "name": "bootstrap",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "**This is a bootstrap step by step tutorial. All the contents here are created because of -**",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Aflan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aflan-63/Bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aflan-63/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Aflan-63/Bootstrap#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
